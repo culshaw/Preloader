@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title></title>
+	    <script type="text/javascript" src="https://raw.github.com/Modernizr/Modernizr/master/modernizr.js"></script>
+	    <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	    <section id="loading">
+			<figure id="innerCircle" class="circle"></figure>
+			<div id="loader"></div>
+	    </section>
+	    <section id="gallery">
+	    	<img src="http://farm1.staticflickr.com/94/243962216_49afc8c9ba_o.jpg">
+	    	<img src="http://farm6.staticflickr.com/5283/5361320118_d193bf5639_b.jpg">
+	    	<img src="http://farm7.staticflickr.com/6090/6125129993_9e675f8ca0_o.jpg">
+	    </section>
+	    
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	    <script>window.jQuery || document.write('<script src="js/jquery-1.6.4.min.js"><\/script>')</script>
+	    <script type="text/javascript" src="https://raw.github.com/DmitryBaranovskiy/raphael/master/raphael-min.js"></script>
+	    <!--<script type="text/javascript" src="//raw.github.com/Gaya/QueryLoader2/master/jquery.queryloader2.js"></script>-->
+	    <script type="text/javascript" src="queryloader.js"></script>
+	    <script defer type="text/javascript">
+	    	QueryLoader.initialise();
+	    </script>
+	</body>
+</html>

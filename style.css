@@ -1,0 +1,28 @@
+#loading {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#loading.fly {
+	-webkit-animation: fly-away 1s 1;
+}
+
+#loading .circle {
+	width: 206px;
+	height: 206px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -103px 0 0 -103px;
+}
+	
+#loading #loader {
+		width: 220px;
+		height: 220px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -110px 0 0 -110px;
+		background: transparent;
+}
